@@ -1,0 +1,158 @@
+body {
+  font-family: monospace, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to top right, #007991, #78ffd6);
+  height: 100%;
+  margin: 0;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-size: 14px;
+}
+
+
+html {
+  height: 100%;
+}
+
+code {
+  font-family: monospace, source-code-pro, Menlo, Monaco, Consolas, "Courier New";
+}
+
+.App{
+  height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+img{
+  height: auto;
+    max-width: 40vw;
+}
+
+@media only screen and (max-width: 567px) {
+  /* For mobile phones: */
+  .col-m-1 {width: 8.33%;}
+  .col-m-2 {width: 16.66%;}
+  .col-m-3 {width: 25%;}
+  .col-m-4 {width: 33.33%;}
+  .col-m-5 {width: 41.66%;}
+  .col-m-6 {width: 50%;}
+  .col-m-7 {width: 58.33%;}
+  .col-m-8 {width: 66.66%;}
+  .col-m-9 {width: 75%;}
+  .col-m-10 {width: 83.33%;}
+  .col-m-11 {width: 91.66%;}
+  .col-m-12 {width: 100%;}
+  html {
+    font-size: 5px;
+  }
+
+  p {
+    font-size: 2.5rem;
+  }
+
+  .imgContainer{
+    float: left;
+}
+
+  .cardP{
+    display: none;
+  }
+  .popup_inner {
+    left: 8%;
+    right: 8%;
+    top: 8%;
+    bottom: 8%;
+  }
+}
+
+@media only screen and (min-width: 568px) and (max-width: 1023px) {
+  /* For tablets: */
+  .col-t-1 {width: 8.33%;}
+  .col-t-2 {width: 16.66%;}
+  .col-t-3 {width: 25%;}
+  .col-t-4 {width: 33.33%;}
+  .col-t-5 {width: 41.66%;}
+  .col-t-6 {width: 50%;}
+  .col-t-7 {width: 58.33%;}
+  .col-t-8 {width: 66.66%;}
+  .col-t-9 {width: 75%;}
+  .col-t-10 {width: 83.33%;}
+  .col-t-11 {width: 91.66%;}
+  .col-t-12 {width: 100%;}
+  html {
+    font-size: 18px;
+  }
+  .imgContainer{
+    float: right;
+  }
+  .popup_inner {
+    left: 7%;
+    right: 7%;
+    top: 7%;
+    bottom: 7%;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+  /* For desktop: */
+  .col-d-1 {width: 8.33%;}
+  .col-d-2 {width: 16.66%;}
+  .col-d-3 {width: 25%;}
+  .col-d-4 {width: 33.33%;}
+  .col-d-5 {width: 41.66%;}
+  .col-d-6 {width: 50%;}
+  .col-d-7 {width: 58.33%;}
+  .col-d-8 {width: 66.66%;}
+  .col-d-9 {width: 75%;}
+  .col-d-10 {width: 83.33%;}
+  .col-d-11 {width: 91.66%;}
+  .col-d-12 {width: 100%;}
+  html {
+    font-size: 20px;
+  }
+  .imgContainer{
+    float: right;
+  }
+  .popup_inner {
+    left: 8%;
+    right: 8%;
+    top: 8%;
+    bottom: 8%;
+  }
+}
+
+@media only screen and (min-width: 1441px) {
+  .col-w-2 {width: 16.66%;}
+  html {
+    font-size: 20px;
+  }
+  .imgContainer{
+    float: right;
+  }
+  .card{
+    transition: all 1s;
+  }
+  .card:hover{
+    transform: scale(1.04)
+  }
+  .popup_inner {
+    left: 15%;
+    right: 15%;
+    top: 15%;
+    bottom: 15%;
+  }
+}
+
+@media only screen and (min-width: 1366px) {
+  .card{
+    transition: all 1s;
+  }
+  .card:hover{
+    transform: scale(1.04)
+  }
+}

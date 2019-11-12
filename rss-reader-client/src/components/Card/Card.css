@@ -1,0 +1,33 @@
+.cardImg{
+    height: auto;
+    max-width: 13vw;
+    margin: 0rem .7rem;
+}
+
+.cardh4 {
+    margin: 0;
+}
+
+.cardP{
+    margin: 0;
+}
+
+.cardh4:hover, .cardImg:hover, .cardP:hover {
+    cursor: pointer;
+}
+
+.card{
+    max-height: auto;
+    max-width: 80vw; 
+    min-width: 20vw;
+    height: auto;
+    text-align: left;
+    margin: .2rem;
+    padding: 1rem;
+    box-shadow: 4px 4px 8px 0 rgba( 0, 0, 0, .2 );
+    background-color: rgba( 189, 244, 255, .85 );
+}
+
+.textContainer{
+display: block;
+}
